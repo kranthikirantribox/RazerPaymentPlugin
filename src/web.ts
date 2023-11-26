@@ -7,4 +7,12 @@ export class RazerPaymentWeb extends WebPlugin implements RazerPaymentPlugin {
     console.log('ECHO', options);
     return options;
   }
+  async start(options: { value: string }): Promise<{ value: string }> {
+    console.log('ECHO', options);
+    return options;
+  }
+  async status(options: { value: string }): Promise<{ value: string }> {
+    console.log('ECHO', options);
+    return options;
+  }
 }
